@@ -1,4 +1,19 @@
-:root {
+@import "tailwindcss";
+
+/* import google font : Mulish */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* Universal CSS */
+* {
+  box-sizing: border-box;
+  /* padding: 0;
+  margin: 0; */
+  font-family: "Mulish", sans-serif;
+  transition: all 250ms linear;
+}
+
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +80,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

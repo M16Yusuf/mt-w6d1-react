@@ -5,6 +5,7 @@ import LayoutMain from "./components/layout/LayoutMain.jsx";
 
 // component for pages
 import ShoppingApp from "./components/pages/ecommerce/ShoppingApp.jsx";
+import SurveyPerokok from "./components/pages/survey/SurveyPerokok.jsx";
 
 function Router() {
   return (
@@ -12,6 +13,7 @@ function Router() {
       <Routes>
         <Route path="/" element={<LayoutMain />}>
           <Route index element={<ShoppingApp />} />
+          <Route path="survey" element={<SurveyPerokok />} />
         </Route>
       </Routes>
     </BrowserRouter>
